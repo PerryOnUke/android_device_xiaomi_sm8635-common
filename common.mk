@@ -118,7 +118,7 @@ PRODUCT_PACKAGES += \
 
 # Dolby
 PRODUCT_PACKAGES += \
-    XiaomiDolby
+    LunarisDolby
 
 # DRM
 PRODUCT_PACKAGES += \
