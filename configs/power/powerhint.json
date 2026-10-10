@@ -18,7 +18,8 @@
         "0:0 1:0 2:0 3:0 4:0 5:0 6:0 7:0",
         "0:1344000 1:1344000 2:1344000 3:1286400 4:1286400 5:1286400 6:1286400 7:1651200",
         "0:1593600 1:1593600 2:1593600 3:1286400 4:1286400 5:1286400 6:1286400 7:2150400",
-        "0:1843200 1:1843200 2:1843200 3:1286400 4:1286400 5:1286400 6:1286400 7:1651200"
+        "0:1843200 1:1843200 2:1843200 3:1286400 4:1286400 5:1286400 6:1286400 7:1651200",
+        "0:0 1:0 2:0 3:940800 4:940800 5:940800 6:940800 7:960000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -425,6 +426,30 @@
       "Node": "sysKernelMsmPerformanceParametersCpuMinFreq",
       "Value": "0:1344000 1:1344000 2:1344000 3:1286400 4:1286400 5:1286400 6:1286400 7:1651200",
       "Duration": 2000
+    },
+    {
+      "PowerHint": "GAME",
+      "Node": "sysKernelMsmPerformanceParametersCpuMinFreq",
+      "Value": "0:0 1:0 2:0 3:940800 4:940800 5:940800 6:940800 7:960000",
+      "Duration": 0
+    },
+    {
+      "PowerHint": "GAME_LOADING",
+      "Node": "procSysWaltSchedBoost",
+      "Value": "1",
+      "Duration": 0
+    },
+    {
+      "PowerHint": "GAME_LOADING",
+      "Node": "sysKernelMsmPerformanceParametersCpuMinFreq",
+      "Value": "0:1344000 1:1344000 2:1344000 3:1286400 4:1286400 5:1286400 6:1286400 7:1651200",
+      "Duration": 0
+    },
+    {
+      "PowerHint": "GAME_LOADING",
+      "Node": "sysKernelMsmPerformanceParametersCpuMaxFreq",
+      "Value": "0:1900800 1:1900800 2:1900800 3:2611200 4:2611200 5:2611200 6:2611200 7:2803200",
+      "Duration": 0
     },
     {
       "PowerHint": "CAMERA_STREAMING_LOW",
